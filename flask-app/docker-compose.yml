@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  flask-app:
+    image: vishal1023/flask-test-app:latest
+    ports:
+      - "5000:5000"
+    environment:
+      - xyz=docker-compose
